@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCFEB180153CE6060041D7E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCFEB17F153CE6060041D7E8 /* UIKit.framework */; };
+		DCFEB182153CE6060041D7E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCFEB181153CE6060041D7E8 /* Foundation.framework */; };
+		DCFEB184153CE6060041D7E8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCFEB183153CE6060041D7E8 /* CoreGraphics.framework */; };
+		DCFEB18A153CE6060041D7E8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DCFEB188153CE6060041D7E8 /* InfoPlist.strings */; };
+		DCFEB18C153CE6060041D7E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFEB18B153CE6060041D7E8 /* main.m */; };
+		DCFEB190153CE6060041D7E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFEB18F153CE6060041D7E8 /* AppDelegate.m */; };
+		DCFEB193153CE6060041D7E8 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCFEB191153CE6060041D7E8 /* MainStoryboard.storyboard */; };
+		DCFEB196153CE6070041D7E8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFEB195153CE6070041D7E8 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DCFEB17B153CE6060041D7E8 /* UITextCurrencyView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITextCurrencyView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCFEB17F153CE6060041D7E8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DCFEB181153CE6060041D7E8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DCFEB183153CE6060041D7E8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DCFEB187153CE6060041D7E8 /* UITextCurrencyView-Info.plist */ = {isa = PBXFileReference; path = "UITextCurrencyView-Info.plist"; sourceTree = "<group>"; };
+		DCFEB189153CE6060041D7E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DCFEB18B153CE6060041D7E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DCFEB18D153CE6060041D7E8 /* UITextCurrencyView-Prefix.pch */ = {isa = PBXFileReference; path = "UITextCurrencyView-Prefix.pch"; sourceTree = "<group>"; };
+		DCFEB18E153CE6060041D7E8 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		DCFEB18F153CE6060041D7E8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DCFEB192153CE6060041D7E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		DCFEB194153CE6070041D7E8 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		DCFEB195153CE6070041D7E8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCFEB178153CE6060041D7E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCFEB180153CE6060041D7E8 /* UIKit.framework in Frameworks */,
+				DCFEB182153CE6060041D7E8 /* Foundation.framework in Frameworks */,
+				DCFEB184153CE6060041D7E8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCFEB170153CE6060041D7E8 = {
+			isa = PBXGroup;
+			children = (
+				DCFEB185153CE6060041D7E8 /* UITextCurrencyView */,
+				DCFEB17E153CE6060041D7E8 /* Frameworks */,
+				DCFEB17C153CE6060041D7E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCFEB17C153CE6060041D7E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCFEB17B153CE6060041D7E8 /* UITextCurrencyView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCFEB17E153CE6060041D7E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCFEB17F153CE6060041D7E8 /* UIKit.framework */,
+				DCFEB181153CE6060041D7E8 /* Foundation.framework */,
+				DCFEB183153CE6060041D7E8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCFEB185153CE6060041D7E8 /* UITextCurrencyView */ = {
+			isa = PBXGroup;
+			children = (
+				DCFEB18E153CE6060041D7E8 /* AppDelegate.h */,
+				DCFEB18F153CE6060041D7E8 /* AppDelegate.m */,
+				DCFEB191153CE6060041D7E8 /* MainStoryboard.storyboard */,
+				DCFEB194153CE6070041D7E8 /* ViewController.h */,
+				DCFEB195153CE6070041D7E8 /* ViewController.m */,
+				DCFEB186153CE6060041D7E8 /* Supporting Files */,
+			);
+			path = UITextCurrencyView;
+			sourceTree = "<group>";
+		};
+		DCFEB186153CE6060041D7E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCFEB187153CE6060041D7E8 /* UITextCurrencyView-Info.plist */,
+				DCFEB188153CE6060041D7E8 /* InfoPlist.strings */,
+				DCFEB18B153CE6060041D7E8 /* main.m */,
+				DCFEB18D153CE6060041D7E8 /* UITextCurrencyView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCFEB17A153CE6060041D7E8 /* UITextCurrencyView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCFEB199153CE6070041D7E8 /* Build configuration list for PBXNativeTarget "UITextCurrencyView" */;
+			buildPhases = (
+				DCFEB177153CE6060041D7E8 /* Sources */,
+				DCFEB178153CE6060041D7E8 /* Frameworks */,
+				DCFEB179153CE6060041D7E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UITextCurrencyView;
+			productName = UITextCurrencyView;
+			productReference = DCFEB17B153CE6060041D7E8 /* UITextCurrencyView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCFEB172153CE6060041D7E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = DCFEB175153CE6060041D7E8 /* Build configuration list for PBXProject "UITextCurrencyView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DCFEB170153CE6060041D7E8;
+			productRefGroup = DCFEB17C153CE6060041D7E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCFEB17A153CE6060041D7E8 /* UITextCurrencyView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCFEB179153CE6060041D7E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCFEB18A153CE6060041D7E8 /* InfoPlist.strings in Resources */,
+				DCFEB193153CE6060041D7E8 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCFEB177153CE6060041D7E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCFEB18C153CE6060041D7E8 /* main.m in Sources */,
+				DCFEB190153CE6060041D7E8 /* AppDelegate.m in Sources */,
+				DCFEB196153CE6070041D7E8 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DCFEB188153CE6060041D7E8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCFEB189153CE6060041D7E8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DCFEB191153CE6060041D7E8 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCFEB192153CE6060041D7E8 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCFEB197153CE6070041D7E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DCFEB198153CE6070041D7E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCFEB19A153CE6070041D7E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UITextCurrencyView/UITextCurrencyView-Prefix.pch";
+				INFOPLIST_FILE = "UITextCurrencyView/UITextCurrencyView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DCFEB19B153CE6070041D7E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UITextCurrencyView/UITextCurrencyView-Prefix.pch";
+				INFOPLIST_FILE = "UITextCurrencyView/UITextCurrencyView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCFEB175153CE6060041D7E8 /* Build configuration list for PBXProject "UITextCurrencyView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCFEB197153CE6070041D7E8 /* Debug */,
+				DCFEB198153CE6070041D7E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCFEB199153CE6070041D7E8 /* Build configuration list for PBXNativeTarget "UITextCurrencyView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCFEB19A153CE6070041D7E8 /* Debug */,
+				DCFEB19B153CE6070041D7E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCFEB172153CE6060041D7E8 /* Project object */;
+}
