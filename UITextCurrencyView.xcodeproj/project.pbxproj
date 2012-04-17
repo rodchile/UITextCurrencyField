@@ -15,6 +15,7 @@
 		DCFEB190153CE6060041D7E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFEB18F153CE6060041D7E8 /* AppDelegate.m */; };
 		DCFEB193153CE6060041D7E8 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCFEB191153CE6060041D7E8 /* MainStoryboard.storyboard */; };
 		DCFEB196153CE6070041D7E8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFEB195153CE6070041D7E8 /* ViewController.m */; };
+		DCFEB19E153CEDBB0041D7E8 /* Formatter.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFEB19D153CEDBB0041D7E8 /* Formatter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +23,17 @@
 		DCFEB17F153CE6060041D7E8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DCFEB181153CE6060041D7E8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DCFEB183153CE6060041D7E8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		DCFEB187153CE6060041D7E8 /* UITextCurrencyView-Info.plist */ = {isa = PBXFileReference; path = "UITextCurrencyView-Info.plist"; sourceTree = "<group>"; };
+		DCFEB187153CE6060041D7E8 /* UITextCurrencyView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITextCurrencyView-Info.plist"; sourceTree = "<group>"; };
 		DCFEB189153CE6060041D7E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DCFEB18B153CE6060041D7E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DCFEB18D153CE6060041D7E8 /* UITextCurrencyView-Prefix.pch */ = {isa = PBXFileReference; path = "UITextCurrencyView-Prefix.pch"; sourceTree = "<group>"; };
-		DCFEB18E153CE6060041D7E8 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		DCFEB18D153CE6060041D7E8 /* UITextCurrencyView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextCurrencyView-Prefix.pch"; sourceTree = "<group>"; };
+		DCFEB18E153CE6060041D7E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DCFEB18F153CE6060041D7E8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		DCFEB192153CE6060041D7E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		DCFEB194153CE6070041D7E8 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		DCFEB194153CE6070041D7E8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		DCFEB195153CE6070041D7E8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DCFEB19C153CEDBB0041D7E8 /* Formatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Formatter.h; sourceTree = "<group>"; };
+		DCFEB19D153CEDBB0041D7E8 /* Formatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Formatter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 				DCFEB191153CE6060041D7E8 /* MainStoryboard.storyboard */,
 				DCFEB194153CE6070041D7E8 /* ViewController.h */,
 				DCFEB195153CE6070041D7E8 /* ViewController.m */,
+				DCFEB19C153CEDBB0041D7E8 /* Formatter.h */,
+				DCFEB19D153CEDBB0041D7E8 /* Formatter.m */,
 				DCFEB186153CE6060041D7E8 /* Supporting Files */,
 			);
 			path = UITextCurrencyView;
@@ -163,6 +168,7 @@
 				DCFEB18C153CE6060041D7E8 /* main.m in Sources */,
 				DCFEB190153CE6060041D7E8 /* AppDelegate.m in Sources */,
 				DCFEB196153CE6070041D7E8 /* ViewController.m in Sources */,
+				DCFEB19E153CEDBB0041D7E8 /* Formatter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
